@@ -3,6 +3,7 @@ import Herobanner from "./components/Herobanner"
 import Navbar from "./components/Navbar"
 import Productcard from "./components/Productcard"
 
+
 const { default: Link } = require("next/link")
 
 

@@ -33,7 +33,7 @@ const Productcard = () => {
      
 
       <div className="   h-[80%] w-[60%]  md:h-[750px] md:w-[25%] hover:rotate-2  md:hover:rotate-6 duration-700 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] p-4">
-        <img src='/visakhadetergent.jpg ' className=' h-[60%] w-full'/>
+        <img src='/vtc.jpg ' className=' h-[60%] w-full'/>
         <h2 className='uppercase text-gray-500  lg:text-[30px] text-center overflow-hidden font-bold'>Visakha Detergent</h2>
         <div  className='flex flex-col md:gap-5 gap-1  justify-center items-center'>
           <p className='text-gray-500 text-center  text-sm  md:text-sm'>
@@ -55,7 +55,7 @@ const Productcard = () => {
 
 
       <div className=" h-[80%] w-[60%]  md:h-[750px]   md:w-[25%] hover:rotate-2 md:hover:rotate-6 duration-700 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] p-4">
-        <img src='/visakhadetergent.jpg' className=' h-[60%] w-full'/>
+        <img src='/vfc.jpg' className=' h-[60%] w-full'/>
         <h2 className='uppercase text-gray-500  lg:text-[30px] text-center overflow-hidden font-bold'>Visakha Detergent</h2>
         <div  className='flex flex-col md:gap-5 gap-1  justify-center items-center'>
           <p className='text-gray-500 text-center  text-sm  md:text-sm'>
@@ -73,6 +73,31 @@ const Productcard = () => {
 
 
       </div>
+
+
+
+      <div className=" h-[80%] w-[60%]  md:h-[750px]   md:w-[25%] hover:rotate-2 md:hover:rotate-6 duration-700 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] p-4">
+        <img src='/vls.jpg' className=' h-[60%] w-full'/>
+        <h2 className='uppercase text-gray-500  lg:text-[30px] text-center overflow-hidden font-bold'>Visakha Detergent</h2>
+        <div  className='flex flex-col md:gap-5 gap-1  justify-center items-center'>
+          <p className='text-gray-500 text-center  text-sm  md:text-sm'>
+          Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. 
+          </p>
+          <div className='flex flex-row gap-2'>
+          <h3 className='  text-[15px] lg:text-[30px] font-semibold text-gray-600'>Price:<span className='line-through decoration-green-600 '>₹340</span></h3>
+          <h3 className=' text-[15px] lg:text-[30px] font-semibold text-gray-600'>₹240</h3>
+          </div>
+          
+
+          
+
+        </div>
+
+
+      </div>
+
+
+      
       
 
      
