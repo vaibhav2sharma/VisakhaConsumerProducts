@@ -1,3 +1,4 @@
+import Carousel from "./components/Carousel"
 import Footer from "./components/Footer"
 import Herobanner from "./components/Herobanner"
 import Navbar from "./components/Navbar"
@@ -13,6 +14,8 @@ export default function Home() {
   return (
     <div>
       <Navbar/>
+      <Carousel/>
+      
       <Herobanner/>
       
       {/* grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14
