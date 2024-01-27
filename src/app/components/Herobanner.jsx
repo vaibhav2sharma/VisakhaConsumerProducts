@@ -41,7 +41,7 @@ const Herobanner = () => {
           
         <h1 className='text-red-500  text-[30px] lg:text-[60px] font-extrabold  text-center hover:text-white duration-500  z-10  ' >Elevate Your Home Hygiene with Precision</h1>
         <p className='text-white text-center text-[15px]  lg:text-xl  leading-8 z-10 font-serif  hover:leading-9 duration-700  hover:bg-black font-semibold  p3  '>
-        At Visakha, we specialize in providing high-quality house disinfectants and washing machine liquids that ensure a clean and hygienic living environment for you and your family. Our commitment to excellence is reflected in every product we offer, as we prioritize your well-being and the cleanliness of your home. With a focus on innovation and effectiveness, Visakha Consumer Products brings you a range of carefully crafted solutions to meet all your household cleaning needs. Explore our products and discover the assurance of a healthy, sanitized, and refreshing home with Visakha Consumer Products.
+        At Visakha, we specialize in providing high-quality washing machine detergent ,washing machine liquids and house disinfectants that ensure a clean and hygienic living environment for you and your family. Our commitment to excellence is reflected in every product we offer, as we prioritize your well-being and the cleanliness of your home. With a focus on innovation and effectiveness, Visakha Consumer Products brings you a range of carefully crafted solutions to meet all your household cleaning needs. Explore our products and discover the assurance of a healthy, sanitized, and refreshing home with Visakha Consumer Products.
         </p>
 
           
