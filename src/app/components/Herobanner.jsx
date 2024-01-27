@@ -1,3 +1,4 @@
+
 import React from 'react'
 import ReactPlayer from 'react-player'
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
@@ -9,7 +10,7 @@ const Herobanner = () => {
 
         <div className='bg-white w-full md:w-[50%]     text-center justify-center items-center flex flex-col h-[100%]   ' >
 
-          <h1 className='text-black   text-[24px] md:text-[55px]  font-medium font-sans hover:opacity-70 duration-500  z-10'>Visakha Consumer Products </h1>
+          <h1 className='text-black   text-[24px] md:text-[55px]  font-medium font-sans hover:text-sky-400 duration-500  z-10'>Visakha Consumer Products </h1>
           <h2 className='   text-[14px]  md:text-[40px] text-black/10 mt-10 font-extrabold hover:text-red-600 hover:underline duration-500' >15.01.2024</h2>  
 
           <div className="flex gap-4 justify-center md:justify-start mt-10  z-10">
@@ -34,7 +35,7 @@ const Herobanner = () => {
           
           
         </div>
-        <div className='bg-gray-800  w-full md:w-[50%]  h-[100%]   flex flex-col gap-2 items-center justify-center'>
+        <div className='bg-gray-950  w-full md:w-[50%]  h-[100%]   flex flex-col gap-2 items-center justify-center'>
           
         <h1 className='text-red-500  text-[30px] lg:text-[60px] font-extrabold  text-center hover:text-white duration-500  z-10  ' >Elevate Your Home Hygiene with Precision</h1>
         <p className='text-white text-center text-[12px]  lg:text-xl  leading-8 z-10 font-serif  hover:leading-9 duration-700  hover:bg-red-500/25 '>
