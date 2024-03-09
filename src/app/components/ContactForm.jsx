@@ -19,7 +19,16 @@ const ContactForm = () => {
 	</div>
 	<div class="ml-3">
 	  <h2 class="font-semibold text-gray-800">Message Sent.</h2>
-	  <p class="mt-2 text-sm text-gray-600 leading-relaxed">💌 Thank you for buzzing with the Fashion Hive! 🌟 We've received your response, and our hive is abuzz with excitement to connect with you. Please anticipate a message from one of our dedicated team members soon, who will reach out to you via email. Your fashion journey with us is about to take flight, and we can't wait to assist you in any way we can. Stay tuned for a personalized touch that reflects our commitment to exceptional service. We appreciate your patience and look forward to styling your experience with the Fashion Hive. 🛍️📧 #FashionHive #StayStylish #PersonalizedService</p>
+	  <p class="mt-2 text-sm text-gray-600 leading-relaxed">💌Thank You for Reaching Out to Visakha Consumer Products! 🌈We are thrilled to receive your message through our Contact Us button at Visakha Consumer Products! 🚀 Your interest and engagement mean the world to us.
+
+🙌 We appreciate you taking the time to connect with us. Your inquiry is important, and we're dedicated to providing you with the best possible assistance.
+
+Our team is already on the case, and we're committed to addressing your needs promptly. If you have any additional details to share or questions to ask, feel free to let us know. We're here to make your experience with Visakha Consumer Products exceptional! 💼
+
+Thank you once again for choosing us. Your support fuels our passion, and we look forward to serving you with excellence.
+
+Best regards
+Visakha Consumer Products 🌐 </p>
             
       <Link href="/" className=" inline-flex mt-10">
                                         
