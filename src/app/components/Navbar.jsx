@@ -1,10 +1,11 @@
+"use client"
 import Link from 'next/link'
 import React from 'react'
 import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between  bg-blue-500 bg-opacity-75   text-lg md:text-black  items-center sticky w-full h-[50px] md:h-[80px]   z-20 top-0 transition-transform duration-300 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] '>
+    <div className='flex justify-between  bg-[#1E3A8A]   text-lg md:text-black  items-center sticky w-full h-[50px] md:h-[80px]   z-20 top-0 transition-transform duration-300  '>
       
         <Link href='/'>
         <img src="/visakhalogo2.png" alt=""  className='w-[35px]  md:w-[40px] md:h-[60px] ml-2'/>

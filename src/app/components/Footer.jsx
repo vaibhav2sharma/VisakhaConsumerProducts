@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
@@ -13,21 +14,19 @@ const Footer = () => {
                 <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] flex-col md:flex-row">
                     {/* MENU START */}
                     <div className="flex flex-col gap-3 shrink-0">
-                        <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            Find a store
-                        </div>
-                        <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
+                       
+                        {/* <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             become a partner
-                        </div>
+                        </div> */}
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             sign up for email
                         </div>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             send us feedback
                         </div>
-                        <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
+                        {/* <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             student discount
-                        </div>
+                        </div> */}
                     </div>
                     {/* MENU END */}
 
