@@ -9,7 +9,7 @@ const Herobanner = () => {
     <section data-scroll data-scroll-speed='.1' className=' w-full h-[100vh]    '>
 
         
-        <div className='bg-gray-950  w-full md:w-[100%]  h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col gap-2 items-center justify-center'>
+        <div className='bg-slate-950  w-full md:w-[100%]  h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col gap-2 items-center justify-center'>
           
         <h1 className='text-red-500  text-[30px] lg:text-[90px] font-extrabold  text-center hover:text-white duration-500  z-10  ' >Elevate Your Home Hygiene with Precision</h1>
         <p className='text-white text-center text-[15px]  lg:text-xl  leading-8 z-10 font-serif  hover:leading-9 duration-700  hover:bg-black font-semibold  p3  '>

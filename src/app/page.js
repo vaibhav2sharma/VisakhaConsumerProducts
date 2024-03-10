@@ -9,6 +9,9 @@ import MArquee from "./components/MArquee"
 import Navbar from "./components/Navbar"
 
 import Productcard from "./components/Productcard"
+import Eyes from "./components/Eyes"
+import Eyesffile from "./components/Eyesffile"
+
 
 
 const { default: Link } = require("next/link")
@@ -40,13 +43,17 @@ export default function Home() {
   
   
   return (
-    <div className="bg-[#f1f1f1] ">
+    <div className="bg-[#E8E8E8] ">
+     
       <Navbar />
       {/* <Carousel/> */}
       <LandingText/>
       <MArquee/>
       
+      
+    
       <Herobanner/>
+      <Eyesffile/>
       
       {/* grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14
         px-5 md:px-0 flex */}
@@ -55,7 +62,8 @@ export default function Home() {
       {/* <Productcard image={'/vfc.jpg'} name={'Visakha Detergents'} p={"Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. "} price={"₹340"} discountedprice={"₹240"} /> */}
 
       {/* </div> */}
-    
+
+      
       <h1 className=' text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-thin uppercase hover:opacity-75 hover:font-normal duration-700 text-purple-600   '>Our products</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 my-14
         px-5 md:px-0 ">
