@@ -14,6 +14,7 @@ import Eyesffile from "./components/Eyesffile"
 
 
 
+
 const { default: Link } = require("next/link")
 
 
@@ -49,6 +50,7 @@ export default function Home() {
       {/* <Carousel/> */}
       <LandingText/>
       <MArquee/>
+      
       
       
     
