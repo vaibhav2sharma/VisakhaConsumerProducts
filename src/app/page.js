@@ -44,11 +44,11 @@ export default function Home() {
   
   
   return (
-    <div className="bg-[#E8E8E8] ">
+    <div className="bg-[#E8E8E8]  font-[my-font] ">
      
       <Navbar />
       {/* <Carousel/> */}
-      <LandingText/>
+      <LandingText />
       <MArquee/>
       
       
