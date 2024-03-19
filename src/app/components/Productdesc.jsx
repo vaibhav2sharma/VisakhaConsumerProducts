@@ -10,7 +10,7 @@ const Productdesc = () => {
   
   
   return (
-    <section className=' md:h-[205vh]  py-[10px] md:py-0 xl::h-[100vh]  flex  flex-col md:flex-row  w-full '>
+    <section className=' md:h-[205vh]  py-[10px] md:py-0 xl:h-[100vh]  flex  flex-col md:flex-row  w-full '>
 
 
       
