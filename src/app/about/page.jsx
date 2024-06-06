@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 
 const About = () => {
   return (
-    <>
+    <div className='font-[my-font]'>
       <Navbar/>
 
       <div>
@@ -127,7 +127,7 @@ const About = () => {
       
       <Footer/>
       
-    </>
+    </div>
   )
 }
 

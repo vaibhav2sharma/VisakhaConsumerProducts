@@ -39,7 +39,8 @@ const Eyes = () => {
     <div  className="w-full relative h-[30vh] md:h-[70vh] ">
     <img
       className="object-cover w-full"
-      src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg"
+      // src="https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg"
+      src='/vishaka banner -1.jpg'
       alt=""
     />
 
