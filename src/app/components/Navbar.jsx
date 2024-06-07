@@ -41,6 +41,7 @@ const Navbar = () => {
             <div className=' rounded-full mr-7 flex gap-1  duration-500'>
            
             <Link href='/'>
+            <Link href='/'>
             <CiShoppingCart className=' text-[19px] md:text-[34px] '/>
             <h2 className='text-black text-[20px] hover:underline transition-all duration-1000 ' >Cart</h2>
             <h2 className='text-black text-[20px] hover:underline transition-all duration-1000 ' >Cart</h2>
