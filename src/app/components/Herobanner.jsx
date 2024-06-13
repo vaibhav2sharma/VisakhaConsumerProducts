@@ -6,7 +6,7 @@ import React from 'react'
 const Herobanner = () => {
   return (
    
-    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[140vh] md:h-[185vh] overflow-hidden   '>
+    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[150vh] md:h-[185vh] overflow-hidden   '>
 
         
         <div className='bg-[#F1F1F1]  w-full md:w-[100%]   md:h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col md:flex-row'>
@@ -36,7 +36,7 @@ const Herobanner = () => {
           </div>
           <div className=' h-[100%] w-full bg-gray-800 flex flex-col  justify-center items-center'>
 
-            <h3> </h3>
+            <h3 className='text-[30px] md:text-[80px] md:leading-[0] md:tracking-tighter  text-[#f1f1f1] drop-shadow-lg'> Dirty Clothes? </h3>
             
             <img
             className='px-2 '
@@ -45,7 +45,7 @@ const Herobanner = () => {
             
             />
 
-            <h3> </h3>
+            <h3 className='text-[30px] md:text-[80px] md:leading-[0] md:tracking-tighter  text-[#f1f1f1] drop-shadow-lg'> We Got You Covered! </h3>
 
             
            
