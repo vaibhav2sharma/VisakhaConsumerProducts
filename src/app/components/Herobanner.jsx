@@ -6,10 +6,10 @@ import React from 'react'
 const Herobanner = () => {
   return (
    
-    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[130vh]    '>
+    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[195vh] overflow-hidden   '>
 
         
-        <div className='bg-[#F1F1F1]  w-full md:w-[100%]  h-[110%] md:h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col md:flex-row'>
+        <div className='bg-[#F1F1F1]  w-full md:w-[100%]   md:h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col md:flex-row'>
           
 
           <div className='h-[100%] w-full   flex flex-col items-center justify-center '>
@@ -34,14 +34,18 @@ const Herobanner = () => {
 
 
           </div>
-          <div className=' h-[100%] w-full bg-gray-800'>
+          <div className=' h-[100%] w-full bg-gray-800 flex flex-col  justify-center items-center'>
 
+            <h3> </h3>
+            
             <img
-            className='px-2 relative'
+            className='px-2 '
             
             src='/washingpng.png'
             
             />
+
+            <h3> </h3>
 
             
            
