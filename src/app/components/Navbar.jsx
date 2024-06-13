@@ -5,7 +5,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between  font-[my-font] bg-[#FFFFFF]   text-lg md:text-black  items-center sticky w-full h-[50px] md:h-[80px]   z-20 top-0 transition-transform duration-300  '>
+    <div className='flex justify-between  font-[my-font] bg-[#F1F1F1] border-b-[2px] border-b-gray-100  text-lg md:text-black  items-center sticky w-full h-[50px] md:h-[80px]   z-20 top-0 transition-transform duration-300  '>
       
         <Link href='/'>
         <img src="/visakhalogo2.png" alt=""  className='w-[35px]  md:w-[40px] md:h-[60px] ml-2'/>

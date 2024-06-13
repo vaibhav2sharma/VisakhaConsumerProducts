@@ -6,15 +6,54 @@ import React from 'react'
 const Herobanner = () => {
   return (
    
-    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[100vh]    '>
+    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[130vh]    '>
 
         
-        <div className='bg-[#1F1717]  w-full md:w-[100%]  h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col gap-2 items-center justify-center'>
+        <div className='bg-[#F1F1F1]  w-full md:w-[100%]  h-[110%] md:h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col md:flex-row'>
           
-        <h1 className='text-indigo-600  text-[30px] lg:text-[90px] font-extrabold  text-center hover:text-red-600  z-10 transition-all duration-700 ease-in-out  ' >Elevate Your Home Hygiene with Precision</h1>
-        <p className='text-white text-center text-[15px]  lg:text-xl  leading-8 z-10 font-serif  hover:leading-9 duration-700  font-semibold  p3  '>
-        At Visakha, we specialize in providing high-quality house disinfectants and washing machine liquids that ensure a clean and hygienic living environment for you and your family. Our commitment to excellence is reflected in every product we offer, as we prioritize your well-being and the cleanliness of your home. With a focus on innovation and effectiveness, Visakha Consumer Products brings you a range of carefully crafted solutions to meet all your household cleaning needs. Explore our products and discover the assurance of a healthy, sanitized, and refreshing home with Visakha Consumer Products.
-        </p>
+
+          <div className='h-[100%] w-full   flex flex-col items-center justify-center '>
+
+
+          <h1 className=' text-[30px] md:text-[80px] md:leading-[0] md:tracking-tighter  text-[#374151] drop-shadow-lg"'>Visakha Detergent</h1>
+
+          <p className=' text-[#374151] text-center w-[70%] md:w-[45%] pt-[50px]'>
+          Discover the power of pure clean with Visakha Detergent! Our innovative formula tackles tough stains effortlessly, leaving your clothes brilliantly clean and vibrant after every wash. Gentle on fabrics and kind to the planet, Visakha Detergent ensures a fresh, radiant finish that you can see and feel. Elevate your laundry routine with Visakha where every wash is a promise of sparkling cleanliness and unmatched freshness. Try it today and experience the magic of true cleanliness!
+          </p>
+
+          <img
+          className='pt-[40px]'
+          src='/happyclothes.png'
+          />
+
+
+
+
+
+
+
+
+          </div>
+          <div className=' h-[100%] w-full bg-gray-800'>
+
+            <img
+            className='px-2 relative'
+            
+            src='/washingpng.png'
+            
+            />
+
+            
+           
+           
+            
+            
+.
+          </div>
+
+
+
+
 
           
         </div> 

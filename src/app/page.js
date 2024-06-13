@@ -27,9 +27,10 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-[#E8E8E8]  font-[my-font] ">
+    <div className="bg-[#F1F1F1]  font-[my-font] ">
       <Navbar />
-      {/* <Carousel/> */}
+      {/* <Herobanner /> */}
+      {/* <Carousel /> */}
       <LandingText />
       <MArquee />
 
