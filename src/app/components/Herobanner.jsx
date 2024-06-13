@@ -6,7 +6,7 @@ import React from 'react'
 const Herobanner = () => {
   return (
    
-    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[195vh] overflow-hidden   '>
+    <section data-scroll data-scroll-speed='-.1' className=' w-full h-[140vh] md:h-[185vh] overflow-hidden   '>
 
         
         <div className='bg-[#F1F1F1]  w-full md:w-[100%]   md:h-[100%] rounded-t-[30px]  md:rounded-[40px]  flex flex-col md:flex-row'>
