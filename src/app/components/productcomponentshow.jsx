@@ -3,10 +3,10 @@ import Productcard from './Productcard'
 
 const ProductComponentShow = () => {
   return (
-    <div className='grad'>
+    <div className='gra'>
         <h1 className=' text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-thin uppercase hover:opacity-75 hover:font-normal duration-700 text-purple-600   '>Our products</h1>
-    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 my-14
-        px-5 md:px-0'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-14
+        px-9 md:px-0'>
             
         <Productcard image={'/visakhadetergent.jpg'} name={'Visakha Detergent Powder'} p={"Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. "} price={"340"} discountedprice={"240"} />
           <Productcard image={'/vgc.jpg'} name={'Visakha Glass Cleaner'} p={"Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. "} price={"1249"} discountedprice={"900"} />

@@ -8,7 +8,7 @@ import Productcard from '../components/Productcard'
 
 const Products = () => {
   return (
-    <div>
+    <div className='font-[my-font]'>
       <Navbar/>
       
       

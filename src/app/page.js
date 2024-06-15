@@ -44,10 +44,12 @@ export default function Home() {
       {/* <Productcard image={'/vfc.jpg'} name={'Visakha Detergents'} p={"Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. "} price={"₹340"} discountedprice={"₹240"} /> */}
 
       {/* </div> */}
-      <ProductComponentShow />
-      <ProductComponentShowAgro />
+      <div className="bg-gradient-to-b from-[#f1f1f1] to-[#81CFF5]">
+        <ProductComponentShow />
+        <ProductComponentShowAgro />
 
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 }

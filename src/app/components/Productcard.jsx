@@ -11,12 +11,12 @@ const Productcard = ({image , name ,p ,price, discountedprice}) => {
   return (
     <Link href='/product/3'>
     
-    <div  className='hover:rotate-2  border-l-4 border-lime-300  md:hover:translate-x-3 duration-700  font-[my-font] p-4 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] bg-white'>
+    <div  className='hover:rotate-2  border-l-4 border-lime-300  md:hover:translate-x-3 duration-700  font-[my-font] p-4 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] bg-white '>
        <Image
         width={300}
         height={100}
         src={image}
-        className='md:pl-[120px]'
+        className='md:pl-[120px]  md:h-[300px]'
         
         
       
@@ -25,11 +25,15 @@ const Productcard = ({image , name ,p ,price, discountedprice}) => {
       {/* product card */}
       <div className='p-4 text-black/[0.9]'>
         {/* product name and disc */}
-        <h2  className='uppercase text-gray-500  lg:text-[30px] text-center overflow-hidden font-bold'>
+        {/* <h2  className='uppercase text-gray-500 w-full  lg:text-[30px] text-center overflow-hidden font-bold whitespace-nowrap'>
           {name}
-        </h2>
+        </h2> */}
 
-        <p className='text-gray-500 text-center  text-sm  md:text-sm'>
+<h2 className="uppercase text-gray-500 w-full lg:text-2xl text-lg text-center overflow-hidden font-bold whitespace-nowrap">
+  {name}
+</h2>
+
+        <p className='text-gray-500 text-center  text-sm  md:text-sm '>
          {p}
         </p>
 
