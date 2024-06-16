@@ -4,7 +4,7 @@ import Productcard from './Productcard'
 const ProductComponentShowAgro = () => {
   return (
     <div className=' '>
-        <h1 className="text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-bold uppercase hover:opacity-75 hover:font-normal duration-700 text-black  ">Agro Products</h1>
+        <h1 className="text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-thin uppercase opacity-75 hover:font-normal duration-700 text-zinc-900   ">Agro Products</h1>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 my-14
     px-5 md:px-0'>
         <Productcard image={'/vamrap.jpg'} name={'Visakha amra pickle'} p={"Elevate your laundry experience with Visakha Consumer Products' Our formulations are designed to deliver unmatched cleaning power, leaving your clothes fresh, vibrant, and impeccably clean. "} price={"340"} discountedprice={"240"} />

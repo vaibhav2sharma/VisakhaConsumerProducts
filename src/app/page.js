@@ -35,7 +35,6 @@ export default function Home() {
       <MArquee />
 
       <Herobanner />
-      <Eyesffile />
 
       {/* grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14
         px-5 md:px-0 flex */}
@@ -45,6 +44,7 @@ export default function Home() {
 
       {/* </div> */}
       <div className="bg-gradient-to-b from-[#f1f1f1] to-[#81CFF5]">
+        <Eyesffile />
         <ProductComponentShow />
         <ProductComponentShowAgro />
 

@@ -4,7 +4,7 @@ import Productcard from './Productcard'
 const ProductComponentShow = () => {
   return (
     <div className='gra'>
-        <h1 className=' text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-thin uppercase hover:opacity-75 hover:font-normal duration-700 text-purple-600   '>Our products</h1>
+        <h1 className=' text-center  mt-[120px] md:mt-[40px] text-[40px]   md:text-[50px]  font-thin uppercase opacity-75 hover:font-normal duration-700 text-zinc-900   '>Our products</h1>
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-14
         px-9 md:px-0'>
             
