@@ -23,11 +23,16 @@ const LandingText = () => {
         <p className="text-center text-lg lg:text-xl mb-4">
           ” Visakha Hai Toh Vishwas Hai.” ~
         </p>
+        <img
+          src="/visakhalogo2.png"
+          className="lg:h-[150px] md:h-[130px] h-[150px]"
+        />
       </div>
-      <img
+
+      {/* <img
         src="/visakhalogo2.png"
         className="  h-[150px] top-8 left-[39%]  lg:h-[150px] md:h-[130px] md:top-1 md:left-[44%]  absolute lg:top-0 lg:left-[45%]"
-      />
+      /> */}
     </div>
   );
 };

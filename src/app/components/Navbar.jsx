@@ -50,9 +50,12 @@ const Navbar = () => {
 
         {/* Desktop menu */}
         <div className="hidden md:flex md:space-x-4">
+        <NavLink href="/">Home</NavLink>
           <NavLink href="/about">About</NavLink>
           <NavLink href="/contact">Contact</NavLink>
           <NavLink href="/product">Products</NavLink>
+
+          
         </div>
 
         {/* Cart icon */}
@@ -69,6 +72,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {isOpen && (
         <div className="md:hidden px-4 py-2 bg-gray-100">
+           <MobileNavLink href="/">Home</MobileNavLink>
           <MobileNavLink href="/about">About</MobileNavLink>
           <MobileNavLink href="/contact">Contact</MobileNavLink>
           <MobileNavLink href="/product">Products</MobileNavLink>
