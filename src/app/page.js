@@ -1,5 +1,6 @@
 "use client";
-import { useEffect } from "react";
+
+import { useEffect, useState } from "react";
 import Carousel from "./components/Carousel";
 import Footer from "./components/Footer";
 import Herobanner from "./components/Herobanner";
@@ -11,14 +12,13 @@ import Navbar from "./components/Navbar";
 import Productcard from "./components/Productcard";
 import Eyes from "./components/Eyes";
 import Eyesffile from "./components/Eyesffile";
-import productcomponentshow from "./components/productcomponentshow";
-import productcomponentshowagro from "./components/productcomponentshowagro";
+
 import ProductComponentShow from "./components/productcomponentshow";
 import ProductComponentShowAgro from "./components/productcomponentshowagro";
 
 const { default: Link } = require("next/link");
 
-export default function Home() {
+export default function Home({}) {
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -45,7 +45,9 @@ export default function Home() {
       {/* </div> */}
       <div className="bg-gradient-to-b from-[#f1f1f1] to-[#81CFF5]">
         <Eyesffile />
+
         <ProductComponentShow />
+
         <ProductComponentShowAgro />
 
         <Footer />

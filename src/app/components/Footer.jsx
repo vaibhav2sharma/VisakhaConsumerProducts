@@ -1,4 +1,5 @@
 
+import Link from 'next/link';
 import React from 'react'
 
 import { FaFacebookF, FaTwitter, FaYoutube, FaInstagram } from "react-icons/fa";
@@ -18,12 +19,17 @@ const Footer = () => {
                         {/* <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             become a partner
                         </div> */}
+                        <Link href='/contact'>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             sign up for email
                         </div>
+                        </Link>
+                        
+                        <Link href='/contact'>
                         <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
-                            send us feedback
+                            Become a distributer
                         </div>
+                        </Link>
                         {/* <div className="font-oswald font-medium uppercase text-sm cursor-pointer">
                             student discount
                         </div> */}
@@ -49,29 +55,29 @@ const Footer = () => {
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 Payment Options
                             </div>
+                            <Link  href='/contact'>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 Contact Us
                             </div>
+                            </Link>
                         </div>
                         {/* MENU END */}
 
                         {/* MENU START */}
                         <div className="flex flex-col gap-3">
+                            <Link href='/about'>
                             <div className="font-oswald font-medium uppercase text-sm">
                                 About VISAKHA CONSUMER PRODUCTS
                             </div>
+                            </Link>
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 News
                             </div>
-                            <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Careers
-                            </div>
+                            
                             <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
                                 Investors
                             </div>
-                            <div className="text-sm text-white/[0.5] hover:text-white cursor-pointer">
-                                Sustainability
-                            </div>
+                            
                         </div>
                         {/* MENU END */}
                     </div>

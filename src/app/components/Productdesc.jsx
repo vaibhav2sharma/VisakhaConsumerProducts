@@ -70,11 +70,16 @@ const Productdesc = () => {
         {/* paragraph */}
         <div className=' px-[30px] py-[20px]  md:px-[8px] md:py-[7px] md:w-[90%] w-full  md:text-center '>
           <p className='  md:tracking-tight '>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt hic nam nostrum mollitia aliquam ab inventore id vel facere vitae, quod quis ea voluptatibus earum harum, esse saepe iusto doloribus.
-          Consequatur, maxime? Eligendi aut aliquid architecto, dignissimos aliquam ab fugit accusantium molestias? Ex inventore praesentium quasi id quaerat et explicabo accusantium, aperiam placeat molestias, laudantium sequi veritatis deleniti soluta commodi.
-          Tenetur magni quo possimus nulla quidem in, consequatur sit nostrum unde beatae nisi reiciendis corrupti modi cumque accusamus esse dignissimos dolore? Inventore obcaecati deserunt necessitatibus perspiciatis quibusdam omnis accusantium. Inventore?
-          Minus, cupiditate? Saepe ipsum laborum ex voluptas cupiditate cumque nihil deleniti totam. Eius aperiam numquam quis repudiandae obcaecati dignissimos quos explicabo. Nihil quam repellat architecto et dolorem labore vero nostrum?
-          Excepturi aperiam exercitationem nihil libero. Necessitatibus dolor doloremque velit aspernatur voluptates ad, ipsum, fugit cumque veniam animi, exercitationem enim porro quis provident ea quidem numquam eos ducimus. Enim, dolores pariatur.
+
+Welcome to Visakha Detergent Powder, where quality meets trust. At Visakha, we believe that every wash should be a promise of cleanliness and care. That’s why we proudly say, “Visakha hai to Vishwas hai”.
+
+Our premium detergent powder is specially formulated to deliver exceptional cleaning power while being gentle on your clothes. With Visakha Detergent Powder, you can expect:
+
+Deep Cleaning Action: Effectively removes tough stains and dirt, leaving your clothes looking as good as new.
+Fresh Fragrance: Keeps your laundry smelling fresh and pleasant all day long.
+Gentle on Fabrics: Our detergent is tough on stains but gentle on your clothes, maintaining their softness and color.
+Eco-Friendly Formula: We care for the environment as much as you do. Our detergent is made with biodegradable ingredients, ensuring a safer choice for your family and the planet.
+Join countless satisfied customers who trust Visakha Detergent Powder for their laundry needs. Experience the difference and add a touch of trust to every wash.
 
           </p>
 

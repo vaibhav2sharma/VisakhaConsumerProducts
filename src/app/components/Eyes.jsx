@@ -44,21 +44,21 @@ const Eyes = () => {
       alt=""
     />
 
-    <div className="bg-white h-[80px] w-[80px]  md:h-[200px]  md:w-[200px] absolute lg:top-[210px] top-[70px] left-[20%] lg:left-[68%] rounded-[50%]  ">
+    {/* <div className="bg-white h-[80px] w-[80px]  md:h-[200px]  md:w-[200px] absolute lg:top-[210px] top-[70px] left-[20%] lg:left-[68%] rounded-[50%]  ">
       <div className="bg-black h-[60px] w-[60px] md:h-[100px] md:w-[100px] rounded-[50%] absolute md:top-[50px] md:left-[50px] top-[10px] left-[10px]">
         <div style={{ transform: `rotate(${rotate}deg)` }} className="h-[20px] w-full absolute top-[39%]">
           <div className="h-[20px] w-[20px] rounded-[50%] bg-white"></div>
         </div>
       </div>
-    </div>
+    </div> */}
 
-    <div className="bg-white h-[80px] w-[80px] md:h-[200px]  md:w-[200px] absolute lg:top-[210px] top-[70px] right-[20%] lg:right-[2%] rounded-[50%]  ">
+    {/* <div className="bg-white h-[80px] w-[80px] md:h-[200px]  md:w-[200px] absolute lg:top-[210px] top-[70px] right-[20%] lg:right-[2%] rounded-[50%]  ">
       <div className="bg-black h-[60px] w-[60px] md:h-[100px] md:w-[100px] rounded-[50%] absolute md:top-[50px] top-[10px] right-[10px] md:left-[50px]">
         <div style={{ transform: `rotate(${rotate}deg)` }} className="h-[20px] w-full  absolute top-[39%] ">
           <div className="h-[20px] w-[20px] rounded-[50%] bg-white"></div>
         </div>
       </div>
-    </div>
+    </div> */}
   </div>
   );
 };
