@@ -2,10 +2,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import { Provider } from 'react-redux'
+import store from '../store/store'
 
 const About = () => {
   return (
     <div className='font-[my-font]'>
+      <Provider store={store}>
       <Navbar/>
 
       <div>
@@ -126,6 +129,7 @@ const About = () => {
       
       
       <Footer/>
+      </Provider>
       
     </div>
   )

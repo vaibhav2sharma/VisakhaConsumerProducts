@@ -5,11 +5,13 @@ import Link from 'next/link'
 import React from 'react'
 
 
-const Productcard = ({image , name ,p ,price, discountedprice}) => {
+const Productcard = ({image , name ,p ,price, discountedprice,slug}) => {
  
   
   return (
-    <Link href='/product/3'>
+    <Link href={
+`/product/${slug}`
+    } >
     
     <div  className='hover:rotate-2  border-l-4 outline-2 outline-fuchsia-400 outline-offset-4 border-lime-300  md:hover:translate-x-3 duration-700  font-[my-font] p-4 shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] bg-white '>
        <Image
