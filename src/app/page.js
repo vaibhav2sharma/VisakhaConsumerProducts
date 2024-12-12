@@ -33,7 +33,7 @@ export default function Home() {
         <div className="bg-gradient-to-b from-[#f1f1f1] to-[#81CFF5]">
           <Eyesffile />
           <ProductComponentShow />
-          <ProductComponentShowAgro />
+          {/* <ProductComponentShowAgro /> */}
           <Footer />
         </div>
       </div>
