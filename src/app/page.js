@@ -10,8 +10,9 @@ import LandingText from "./components/LandingText";
 
 import Navbar from "./components/Navbar";
 import Eyesffile from "./components/Eyesffile";
-import ProductComponentShow from "./components/ProductComponentShow";
+
 import MArquee from "./components/MArquee";
+import ProductComponentShow from "./components/productcomponentshow";
 
 const { default: Link } = require("next/link");
 
@@ -32,8 +33,8 @@ export default function Home() {
         <Herobanner />
         <div className="bg-gradient-to-b from-[#f1f1f1] to-[#81CFF5]">
           <Eyesffile />
-          <ProductComponentShow />
 
+          <ProductComponentShow />
           <Footer />
         </div>
       </div>
