@@ -20,6 +20,7 @@ const HOME = () => {
           <Eyesffile />
           <ProductComponentShow />
           <ProductComponentShowAgro />
+
           <Footer />
         </div>
       </div>
