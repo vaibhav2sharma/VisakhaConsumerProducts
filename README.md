@@ -2,7 +2,7 @@
 ---
 
 ## 🧼 3. Visakha Consumer Product — Detergent Brand Website
-
+LINK: https://www.visakhaconsumerproducts.in/
 ```markdown
 # 🧼 Visakha Consumer Product
 
